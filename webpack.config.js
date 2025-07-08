@@ -5,7 +5,7 @@ module.exports = withModuleFederationPlugin({
   name: 'stackblitz-productos',
 
   exposes: {
-    './Component': './src/app.component.ts',
+    './Component': './src/app/app.component.ts',
   },
 
   shared: {
