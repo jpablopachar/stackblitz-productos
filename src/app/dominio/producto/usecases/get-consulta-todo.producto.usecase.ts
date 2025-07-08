@@ -7,7 +7,7 @@ import { ProductoModel } from "../models/producto.model";
 export class GetConsultaTodoProductoUseCase {
     private readonly productoRepository = inject(IProductoRepository);
 
-    consultar(): Observable<ProductoModel[]> {
+    execute(): Observable<ProductoModel[]> {
         return this.productoRepository.consultar();
     }
 }
