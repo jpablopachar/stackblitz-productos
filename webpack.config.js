@@ -2,10 +2,10 @@ const { shareAll, withModuleFederationPlugin } = require('@angular-architects/mo
 
 module.exports = withModuleFederationPlugin({
 
-  name: 'app-productos',
+  name: 'stackblitz-productos',
 
   exposes: {
-    './Component': './src\app\app.component.ts',
+    './Component': './src/app.component.ts',
   },
 
   shared: {
